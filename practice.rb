@@ -205,6 +205,19 @@
 # p sum([1, 2, 3])
 
 #2) Write a function that takes in an array of strings and returns the smallest string.
+# strings = ("hi", "bye", "plys")
+# def smallest_string(strings)
+#   i = 0
+#   while i < strings.length
+#     if strings[0].length < strings[i].length
+#       p strings[i]
+#       i += 1
+#     end 
+#     return strings
+#   end 
+# end 
+
+# p smallest_string(strings)
 
 #3) Write a function that takes in an array of numbers and returns a new array with the numbers in reverse order.
 
@@ -221,6 +234,19 @@
 # p reversed_numbers([1, 2, 3])
 
 #4) Write a function that takes in an array of words and returns the number of words that begin with the letter “a”.
+array = ["apple", "banana", "apex"]
+def begins_with_a(array)
+  i = 0
+  count = 0
+  while i < array.length
+    if array[i].chars.first == "a"
+      count += 1
+    end 
+    i += 1
+  end
+  return count 
+end 
+p begins_with_a(array)
 
 #5) Write a function that takes in an array of strings and joins them together to make a single string separated by commas.
 
