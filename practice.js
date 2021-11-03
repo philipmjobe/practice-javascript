@@ -203,19 +203,19 @@
 // reversedNumbers([1, 2, 3]);
 
 //4) Write a function that takes in an array of words and returns the number of words that begin with the letter “a”.
-let array = ["apple", "banana", "apex"];
-function beginsWithA(array) {
-  var i = 0;
-  var count = 0;
-  while (i < array.length) {
-    if (array[i].chars === "a") {
-      count += 1;
-    }
-    i += 1;
-  }
-  console.log(array);
-}
-beginsWithA(array);
+// let array = ["apple", "banana", "apex"];
+// function beginsWithA(array) {
+//   var i = 0;
+//   var count = 0;
+//   while (i < array.length) {
+//     if (array[i].chars === "a") {
+//       count += 1;
+//     }
+//     i += 1;
+//   }
+//   console.log(array);
+// }
+// beginsWithA(array);
 //5) Write a function that takes in an array of strings and joins them together to make a single string separated by commas.
 
 // function withCommas(strings) {
@@ -275,3 +275,15 @@ beginsWithA(array);
 // bigNumbers([11, 23, 32]);
 
 //10) Write a function that takes in an array of words and returns the number of times the letter “a” appeared in total.
+
+setTimeout(function () {
+  console.log("First task done!");
+}, 2000);
+
+setTimeout(function () {
+  console.log("Second task done!");
+}, 4000);
+
+setTimeout(function () {
+  console.log("Third task done!");
+}, 6000);
